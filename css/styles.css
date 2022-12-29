@@ -106,7 +106,6 @@ body {
   color: var(--navy-blue-color);
 }
 
-.mobile-menu-close-btn,
 .modal-close-btn {
   position: absolute;
   display: flex;
@@ -124,11 +123,14 @@ body {
     background-color var(--trans-dur-and-func), fill var(--trans-dur-and-func);
 }
 
-.mobile-menu-open {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
+.modal-close-btn:hover,
+.modal-close-btn:focus,
+.modal-close-btn:active {
+  outline: none;
+  fill: var(--white-color);
+  background-color: var(--ocean-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .mobile-menu {
@@ -218,10 +220,19 @@ body {
   transition: background-color var(--ocean-color);
 }
 
+.mobile-menu-social-link:focus,
+.mobile-menu-social-link:hover {
+  background-color: var(--ocean-color);
+}
+
 .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+a.act {
+  color: var(--ocean-color);
 }
 
 @media screen and (max-width: 767px) {
@@ -253,6 +264,13 @@ body {
     padding-bottom: 40px;
     padding-left: 40px;
   }
+
+  .mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -273,6 +291,11 @@ body {
     display: block;
     padding-top: 24px;
     padding-bottom: 22px;
+  }
+
+  .team-social-link:focus,
+  .team-social-link:active {
+    background-color: var(--ocean-color);
   }
 }
 
@@ -314,10 +337,6 @@ body {
     left: 0;
   }
 
-  a.act {
-    color: var(--ocean-color);
-  }
-
   .menu .menu-item:not(:last-child) {
     margin-right: 40px;
   }
@@ -348,9 +367,9 @@ body {
     transition: color var(--trans-dur-and-func);
   }
 
-  .contact-email:hover,
+  .contact-email:active,
   .contact-email:focus,
-  .contact-phone:hover,
+  .contact-phone:active,
   .contact-phone:focus {
     color: var(--ocean-color);
   }
@@ -406,6 +425,11 @@ body {
   .menu .menu-item:not(:last-child),
   .menu-contact .menu-item:not(:last-child) {
     margin-right: 40px;
+  }
+
+  .contact-email:hover,
+  .contact-phone:hover {
+    color: var(--ocean-color);
   }
 }
 
