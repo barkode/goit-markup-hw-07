@@ -21,6 +21,15 @@
         <a href="./index.html" class="logo"
           >web<span class="logo-black">studio</span></a
         >
+        <button
+          type="button"
+          class="mobile-menu-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+          <svg class="mobile-menu-open-icon" width="32px" height="22px">
+            <use href="./images/icon.svg#icon-hamburger"></use>
+          </svg>
+        </button>
         <nav class="page-nav">
           <ul class="menu">
             <li class="menu-item">
@@ -54,6 +63,72 @@
             >
           </li>
         </ul>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="modal-close-btn js-close-menu">
+            <svg class="mobile-menu-close-btn-img" width="8px" height="8px">
+              <use href="./images/icon.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav-item">
+              <a href="./index.html" class="mobile-menu-nav-link">Studio</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a href="./portfolio.html" class="act mobile-menu-nav-link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a href="#" class="mobile-menu-nav-link">Contacts</a>
+            </li>
+          </ul>
+          <div class="mobile-menu-contact-wrapper">
+            <ul class="mobile-menu-contact">
+              <li class="mobile-menu-contact-item">
+                <a
+                  href="tel:+11(000)111-11-11"
+                  class="mobile-menu-contact-phone-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-menu-contact-item">
+                <a
+                  href="maito:info@devstudio.com"
+                  class="mobile-menu-contact-email-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-menu-social">
+              <li class="mobile-menu-social-item">
+                <a href="#" class="mobile-menu-social-link"
+                  ><svg class="mobile-menu-social-img">
+                    <use href="./images/icon.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="mobile-menu-social-item">
+                <a href="#" class="mobile-menu-social-link"
+                  ><svg class="mobile-menu-social-img">
+                    <use href="./images/icon.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="mobile-menu-social-item">
+                <a href="#" class="mobile-menu-social-link"
+                  ><svg class="mobile-menu-social-img">
+                    <use href="./images/icon.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="mobile-menu-social-item">
+                <a href="#" class="mobile-menu-social-link"
+                  ><svg class="mobile-menu-social-img">
+                    <use href="./images/icon.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -322,5 +397,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
