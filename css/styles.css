@@ -201,7 +201,7 @@ body {
 .mobile-menu-social {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .mobile-menu-social-item {
@@ -311,7 +311,7 @@ a.act {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    min-width: 768px;
   }
 
   .mobile-menu-open {
@@ -530,10 +530,6 @@ a.act {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-
   .overlay {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -613,11 +609,6 @@ a.act {
 
 .modal {
   position: absolute;
-  width: 408px;
-  padding-top: 72px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
   background: #fcfcfc;
   top: 50%;
   left: 50%;
@@ -626,22 +617,6 @@ a.act {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-
-/* .modal-close-btn {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 24px;
-  right: 23px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: var(--cornflower-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  transition: box-shadow var(--trans-dur-and-func),
-    background-color var(--trans-dur-and-func), fill var(--trans-dur-and-func);
-} */
 
 .modal-close-btn-img {
   height: 8px;
@@ -821,6 +796,25 @@ a.act {
   background-color: var(--ocean-color);
 }
 
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 392px;
+    padding-top: 72px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+  }
+}
 /* ============= /FORM ================== */
 
 /* ==================== OUR STRATEGY ============= */
