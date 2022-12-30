@@ -73,6 +73,7 @@ body {
 /* ==================== HEADER ==================== */
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -176,7 +177,7 @@ body {
 .mobile-menu-contact-phone-link {
   color: var(--slate-color);
   font-weight: 500;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.11;
   text-transform: capitalize;
 }
@@ -596,13 +597,12 @@ a.act {
   }
 
   .container {
-    width: 428px;
+    max-width: 428px;
   }
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -732,6 +732,24 @@ a.act {
     letter-spacing: 0.02em;
     color: var(--white-color);
   }
+
+  .modal {
+    width: 408px;
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+  }
+
+  .strategy-list {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 24px;
+  }
+
+  .strategy-item {
+    flex-basis: calc((100% - (2 * 356px)) / 1);
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -784,89 +802,7 @@ a.act {
     padding-top: 192px;
     padding-bottom: 192px;
   }
-}
 
-/* ==================== /HEADER ==================== */
-/* ==================== HERO ==================== */
-
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-  screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px) {
-  .overlay {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../images/bgp@2x.jpg");
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .overlay {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../images/bgt@2x.jpg");
-  }
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  screen and (min-resolution: 192dpi) and (min-width: 1200px),
-  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
-  .overlay {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../images/bgd@2x.jpg");
-  }
-}
-/* ==================== /HERO ==================== */
-
-/* ============= MODAL WINDOW ========== */
-
-/* ============= /MODAL WINDOW ========== */
-
-/* ============= FORM =================== */
-
-@media screen and (max-width: 767px) {
-}
-
-@media screen and (min-width: 768px) {
-  .modal {
-    width: 408px;
-    padding-top: 72px;
-    padding-right: 24px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-  }
-}
-/* ============= /FORM ================== */
-
-/* ==================== OUR STRATEGY ============= */
-
-@media screen and (max-width: 767px) {
-}
-
-@media screnn and (min-width: 768px) {
-  .strategy-list {
-    display: flex;
-    flex-wrap: nowrap;
-    column-gap: 24px;
-  }
-
-  .strategy-item {
-    flex-basis: calc((100% - (2 * 356px)) / 1);
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .strategy-item-link {
     display: flex;
     align-items: center;
@@ -915,6 +851,55 @@ a.act {
     column-gap: 24px;
   }
 }
+
+/* ==================== /HEADER ==================== */
+/* ==================== HERO ==================== */
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px) {
+  .overlay {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/bgp@2x.jpg");
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .overlay {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/bgt@2x.jpg");
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .overlay {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/bgd@2x.jpg");
+  }
+}
+/* ==================== /HERO ==================== */
+
+/* ============= MODAL WINDOW ========== */
+
+/* ============= /MODAL WINDOW ========== */
+
+/* ============= FORM =================== */
+/* ============= /FORM ================== */
+
+/* ==================== OUR STRATEGY ============= */
 
 /* ==================== /OUR STRATEGY ============= */
 /* ==================== WORK LIST ================= */
