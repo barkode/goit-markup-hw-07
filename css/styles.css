@@ -515,13 +515,7 @@ a.act {
 
 .strategy {
   padding-top: 96px;
-  padding-left: 16px;
   padding-bottom: 96px;
-  padding-right: 16px;
-}
-
-.strategy-item:not(:last-child) {
-  margin-bottom: 96px;
 }
 
 .strategy-header {
@@ -530,12 +524,11 @@ a.act {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--navy-blue-color);
-  text-align: center;
   margin-bottom: 8px;
 }
 
 .strategy-text {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
@@ -598,6 +591,14 @@ a.act {
 
   .container {
     max-width: 428px;
+  }
+
+  .strategy-item:not(:last-child) {
+    margin-bottom: 96px;
+  }
+
+  .strategy-header {
+    text-align: center;
   }
 }
 
@@ -743,12 +744,15 @@ a.act {
 
   .strategy-list {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 72px;
+    padding: 0;
+    text-align: start;
   }
 
   .strategy-item {
-    flex-basis: calc((100% - (2 * 356px)) / 1);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
