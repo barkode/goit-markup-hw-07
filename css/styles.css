@@ -123,6 +123,11 @@ body {
     background-color var(--trans-dur-and-func), fill var(--trans-dur-and-func);
 }
 
+.mobile-menu-container .modal-close-btn {
+  top: 40px;
+  right: 40px;
+}
+
 .modal-close-btn:hover,
 .modal-close-btn:focus,
 .modal-close-btn:active {
@@ -169,11 +174,16 @@ body {
 }
 
 .mobile-menu-contact-phone-link {
-  color: var(--iris-color);
+  color: var(--slate-color);
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+}
+
+.mobile-menu-contact-phone-link:focus,
+.mobile-menu-contact-phone-link:active {
+  color: var(--iris-color);
 }
 
 .mobile-menu-contact-email-link {
@@ -350,10 +360,7 @@ a.act {
   }
 
   .menu-link:hover,
-  .menu-link:focus {
-    color: var(--ocean-color);
-  }
-
+  .menu-link:focus,
   .menu-link:active {
     color: var(--ocean-color);
   }
@@ -596,7 +603,7 @@ a.act {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
@@ -620,7 +627,7 @@ a.act {
   border-radius: 4px;
 }
 
-.modal-close-btn {
+/* .modal-close-btn {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -634,7 +641,7 @@ a.act {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: box-shadow var(--trans-dur-and-func),
     background-color var(--trans-dur-and-func), fill var(--trans-dur-and-func);
-}
+} */
 
 .modal-close-btn-img {
   height: 8px;
