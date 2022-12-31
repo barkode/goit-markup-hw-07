@@ -625,6 +625,9 @@ a.act {
   .team-social-link:active {
     background-color: var(--ocean-color);
   }
+  .work {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -856,9 +859,6 @@ a.act {
   }
 }
 
-/* ==================== /HEADER ==================== */
-/* ==================== HERO ==================== */
-
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
@@ -893,50 +893,32 @@ a.act {
       ),
       url("../images/bgd@2x.jpg");
   }
-}
-/* ==================== /HERO ==================== */
 
-/* ============= MODAL WINDOW ========== */
+  .work-list {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
 
-/* ============= /MODAL WINDOW ========== */
+  .work-item {
+    flex-basis: calc((100% - (2 * 24px)) / 3);
+  }
 
-/* ============= FORM =================== */
-/* ============= /FORM ================== */
-
-/* ==================== OUR STRATEGY ============= */
-
-/* ==================== /OUR STRATEGY ============= */
-/* ==================== WORK LIST ================= */
-
-/*
-
-.work-list {
-  display: flex;
-  align-items: center;
-  column-gap: 24px;
-  flex-wrap: wrap;
-}
-
-.work-item {
-  flex-basis: calc((100% - (2 * 24px)) / 3) ;
+  .work-header,
+  .team-header,
+  .customer-header {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    text-align: center;
+    text-transform: capitalize;
+  }
 }
 
-.work-header,
-.team-header,
-.customer-header {
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue-color) ;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-*/
-
-/* ==================== /WORK LIST ================= */
 /* ==================== TEAM ======================= */
 
 /*
