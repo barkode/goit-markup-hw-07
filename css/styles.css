@@ -22,6 +22,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -742,7 +743,7 @@ a.act {
     text-align: center;
   }
 
-  .strategy-text {
+  .strategy-item {
     max-width: 396px;
   }
 
@@ -763,18 +764,22 @@ a.act {
     height: 88px;
     width: 190px;
   }
+
+  .team {
+    padding-top: 96px;
+    padding-bottom: 128px;
+  }
+
+  .customer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
 
 @media screen and (min-width: 480px) {
-  /* ... */
 }
 
 @media screen and (max-width: 1199px) {
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
   .menu-link.link-item-block {
     display: block;
     padding-top: 24px;
@@ -933,9 +938,19 @@ a.act {
     max-width: 264px;
   }
 
+  .customer-menu {
+    width: 90%;
+  }
+
   .customer-menu-item {
     height: 88px;
     width: 168px;
+    flex-basis: calc((100 - 48px) / 3);
+  }
+
+  .customer {
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 
