@@ -675,7 +675,6 @@ a.act {
 .page-footer {
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 108px;
   background-color: var(--navy-blue-color);
 }
 
@@ -1032,13 +1031,10 @@ a.act {
   }
 
   .hero-header {
-    margin: auto;
-    max-width: 500px;
+    width: 500px;
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: var(--white-color);
   }
 
   .modal {
@@ -1102,6 +1098,10 @@ a.act {
 
   .footer-descr {
     width: 264px;
+  }
+
+  .page-footer {
+    padding-left: 93px;
   }
 
   .footer-align {
