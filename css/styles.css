@@ -604,16 +604,6 @@ a.act {
   text-transform: capitalize;
 }
 
-.strategy-header {
-  margin-bottom: 8px;
-  margin-top: 8px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue-color);
-}
-
 .strategy-text {
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -1179,6 +1169,13 @@ a.act {
 
   .strategy {
     padding-top: 120px;
+  }
+
+  .strategy-header {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
   }
 
   .strategy-item {
