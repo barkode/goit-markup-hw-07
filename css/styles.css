@@ -1099,8 +1099,6 @@ a.act {
 
 /* ==================== FOOTER ================= */
 
-/*
-
 .footer-align {
   display: flex;
   align-items: baseline;
@@ -1111,7 +1109,7 @@ a.act {
 }
 
 .footer-descr {
-  color: var(--cornflower-color) ;
+  color: var(--cornflower-color);
   width: 264px;
   margin-top: 16px;
 }
@@ -1119,7 +1117,7 @@ a.act {
 .page-footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--navy-blue-color) ;
+  background-color: var(--navy-blue-color);
 }
 
 .footer-social-menu {
@@ -1139,28 +1137,28 @@ a.act {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1) ;
+  background: rgba(255, 255, 255, 0.1);
   width: 100%;
   height: 100%;
-  transition: background-color var(--trans-dur-and-func) ;
+  transition: background-color var(--trans-dur-and-func);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--green-color) ;
+  background-color: var(--green-color);
 }
 
 .footer-social-img {
   width: 24px;
   height: 24px;
-  fill: var(--cloud-color) ;
+  fill: var(--cloud-color);
 }
 
 .footer-subscribe-img {
   margin-left: 16px;
   width: 24px;
   height: 20px;
-  fill: var(--white-color) ;
+  fill: var(--white-color);
 }
 
 .footer-social {
@@ -1172,20 +1170,8 @@ a.act {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--white-color) ;
-  font-size: 16px; }
-
-.footer-subscribe-input {
-  display: block;
-  height: 40px;
-  width: 264px;
-  padding: 8px 16px;
-  margin-right: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.3) ;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)) ;
-  border-radius: 4px;
-  background-color: var(--navy-blue-color) ;
-  color: var(--cloud-color) ;
+  color: var(--white-color);
+  font-size: 16px;
 }
 
 .footer-subscribe-input {
@@ -1194,11 +1180,24 @@ a.act {
   width: 264px;
   padding: 8px 16px;
   margin-right: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.3) ;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)) ;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--navy-blue-color) ;
-  color: var(--cloud-color) ;
+  background-color: var(--navy-blue-color);
+  color: var(--cloud-color);
+}
+
+.footer-subscribe-input {
+  display: block;
+  height: 40px;
+  width: 264px;
+  padding: 8px 16px;
+  margin-right: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--navy-blue-color);
+  color: var(--cloud-color);
 }
 
 .footer-subscribe-input::placeholder {
@@ -1206,14 +1205,14 @@ a.act {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6) ;
-  background-color: var(--navy-blue-color) ;
-  transition: border var(--trans-dur-and-func) ;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--navy-blue-color);
+  transition: border var(--trans-dur-and-func);
 }
 
 .footer-subscribe-input:focus {
   outline: none;
-  border: 1px solid var(--iris-color) ;
+  border: 1px solid var(--iris-color);
 }
 
 .footer-form-subscribe {
@@ -1226,7 +1225,7 @@ a.act {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.06em;
-  color: var(--white-color) ;
+  color: var(--white-color);
   text-transform: capitalize;
 }
 
@@ -1236,20 +1235,18 @@ a.act {
   align-items: center;
   padding: 8px 24px;
   text-align: left;
-  background: var(--iris-color) ;
+  background: var(--iris-color);
   border-radius: 4px;
   width: 168px;
   height: 40px;
   border-color: transparent;
-  transition: background-color var(--trans-dur-and-func) ;
+  transition: background-color var(--trans-dur-and-func);
 }
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: var(--ocean-color) ;
+  background-color: var(--ocean-color);
 }
-
-*/
 
 /* ==================== /FOOTER ================= */
 
