@@ -539,7 +539,8 @@ a.act {
 
 .team {
   background-color: var(--cloud-color);
-  padding-top: 120px;
+  padding-top: 96px;
+  padding-bottom: 124px;
 }
 
 .team-item {
@@ -623,6 +624,7 @@ a.act {
 
 .customer {
   padding-top: 96px;
+  padding-bottom: 96px;
   text-align: center;
 }
 
@@ -763,16 +765,7 @@ a.act {
   .customer-menu-item {
     height: 88px;
     width: 190px;
-  }
-
-  .team {
-    padding-top: 96px;
-    padding-bottom: 128px;
-  }
-
-  .customer {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    flex-basis: calc((100% - 16px) / 2);
   }
 }
 
@@ -923,6 +916,10 @@ a.act {
     flex-basis: calc((100% - 24px) / 2);
   }
 
+  .team {
+    padding-bottom: 104px;
+  }
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -933,24 +930,18 @@ a.act {
   }
 
   .team-item {
-    flex-basis: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 48px) / 3);
     padding: 0;
     max-width: 264px;
   }
 
   .customer-menu {
-    width: 90%;
+    column-gap: 24px;
   }
 
   .customer-menu-item {
     height: 88px;
     width: 168px;
-    flex-basis: calc((100 - 48px) / 3);
-  }
-
-  .customer {
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
 }
 
@@ -1059,8 +1050,14 @@ a.act {
     text-transform: capitalize;
   }
 
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .customer {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -1099,10 +1096,6 @@ a.act {
       url("../images/bgd@2x.jpg");
   }
 }
-
-/* ==================== /CUSTOMER ================= */
-
-/* ==================== /CUSTOMER ================= */
 
 /* ==================== FOOTER ================= */
 
