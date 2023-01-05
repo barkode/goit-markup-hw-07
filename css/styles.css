@@ -1248,10 +1248,14 @@ a.act {
     max-width: 1158px;
   }
 
+  .menu-contact .menu-item:last-child {
+    padding-top: 0;
+  }
+
   .link-item-block {
     display: block;
     padding-top: 24px;
-    padding-bottom: 28px;
+    padding-bottom: 24px;
   }
 
   .logo {
