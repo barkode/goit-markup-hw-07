@@ -251,13 +251,14 @@ a.act {
 
 .hero {
   display: block;
+  max-width: 1440px;
   margin: 0 auto;
   background-color: var(--navy-blue-color);
   text-align: center;
 }
 
 .overlay {
-  max-width: 1600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
