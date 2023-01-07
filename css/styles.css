@@ -1010,11 +1010,17 @@ a.act {
 
   .footer-social .footer-text {
     text-align: center;
+  }
+
+  .footer-social {
     margin-top: 72px;
   }
 
   .footer-subscribe .footer-text {
     text-align: center;
+  }
+
+  .footer-subscribe {
     margin-top: 72px;
   }
 
