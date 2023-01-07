@@ -178,7 +178,7 @@ body {
 }
 
 .mobile-menu-contact-phone-link {
-  color: var(--slate-color);
+  color: var(--iris-color);
   font-weight: 500;
   font-size: 30px;
   line-height: 1.11;
@@ -329,6 +329,7 @@ a.act {
 }
 
 .modal {
+  width: 100%;
   position: absolute;
   background: #fcfcfc;
   top: 50%;
@@ -337,6 +338,7 @@ a.act {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 72px 24px;
 }
 
 .modal-close-btn-img {
@@ -952,11 +954,7 @@ a.act {
   }
 
   .modal {
-    width: 392px;
-    padding-top: 72px;
-    padding-right: 16px;
-    padding-bottom: 24px;
-    padding-left: 16px;
+    max-width: 392px;
   }
 
   .container {
@@ -1169,11 +1167,7 @@ a.act {
   }
 
   .modal {
-    width: 408px;
-    padding-top: 72px;
-    padding-right: 24px;
-    padding-bottom: 24px;
-    padding-left: 24px;
+    max-width: 408px;
   }
 
   .strategy-list {
