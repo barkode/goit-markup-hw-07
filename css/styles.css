@@ -536,6 +536,12 @@ a.act {
   letter-spacing: 0.02em;
 }
 
+.team-list-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
 .team {
   background-color: var(--cloud-color);
   padding-top: 96px;
@@ -591,6 +597,16 @@ a.act {
   width: 16px;
   height: 16px;
   fill: var(--cloud-color);
+}
+
+.team-header-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+  margin-bottom: 8px;
 }
 
 .team-header,
