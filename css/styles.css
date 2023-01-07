@@ -205,7 +205,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 48px;
-  column-gap: 13%;
+  column-gap: 12%;
 }
 
 .mobile-menu-social-img {
