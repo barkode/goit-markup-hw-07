@@ -1030,7 +1030,7 @@ a.act {
   .menu-link.link-item-block {
     display: block;
     padding-top: 24px;
-    padding-bottom: 22px;
+    padding-bottom: 24px;
   }
 
   .team-social-link:focus,
@@ -1115,15 +1115,15 @@ a.act {
   }
 
   .menu-contact .menu-item:last-child {
-    padding-top: 4px;
+    margin-top: 4px;
   }
 
   .contact-email {
-    padding-top: 24px;
+    padding-top: 16px;
   }
 
   .contact-phone {
-    padding-bottom: 10px;
+    padding-bottom: 16px;
   }
 
   .menu-contact {
@@ -1290,6 +1290,10 @@ a.act {
   .contact-email:hover,
   .contact-phone:hover {
     color: var(--ocean-color);
+  }
+
+  .menu-contact .menu-item:last-child {
+    margin-top: 0;
   }
 
   .overlay {
