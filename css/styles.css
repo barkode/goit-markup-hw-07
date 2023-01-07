@@ -906,6 +906,13 @@ a.act {
   letter-spacing: 0.02em;
 }
 
+@media screen and (max-width: 428px) {
+  .mobile-menu-contact-phone-link {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .page-nav {
     display: none;
@@ -1225,14 +1232,11 @@ a.act {
     width: 264px;
   }
 
-  .page-footer {
-    padding-left: 93px;
-  }
-
   .footer-align {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
+    padding-left: 108px;
   }
 
   .footer-form-subscribe {
@@ -1266,6 +1270,7 @@ a.act {
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
   }
 
   .menu-contact .menu-item:last-child {
